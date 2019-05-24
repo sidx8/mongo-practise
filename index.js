@@ -24,9 +24,6 @@ mongoose.connect('mongodb://localhost/playground')
   const result = await course.save();
   console.log(result);
 }
-// eq (equal)
-// ne (not equal)
-//
 
 async function getCourse(){
     const course = await Course

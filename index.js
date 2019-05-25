@@ -24,14 +24,28 @@ mongoose.connect('mongodb://localhost/playground')
   const result = await course.save();
   console.log(result);
 }
+  
+ // CONDITIONAL OPERATORS
+  //eq (equal)
+  //ne (not eqaul)
+  //gt (greater than)
+  //gte (greater than or equal to)
+  //lt (less than)
+  //in
+  //nin (not in)
+
+  // LOGICAL OPERATOR
 
 async function getCourse(){
-    const course = await Course
+   const course = await Course
     .find({author: 'sid' , isPublished: true})
     .limit(10)
     .sort({name: 1})
-    .select({name: 1, tags: 1});
+    .select({name: 1, tags: 1})
+    .count();
     console.log(course);
 };
 
 getCourse();
+
+get

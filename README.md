@@ -1,2 +1,2 @@
-# mongo-practise
-this is just a practice file
+# mongo-demo
+This is a practise file for mongoDB

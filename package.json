@@ -13,6 +13,6 @@
     "mongodb": "^3.2.5",
     "mongoose": "^5.0.1",
     "mpath": "^0.8.4",
-    "nodemon": "^1.19.0"
+    "nodemon": "^2.0.22"
   }
 }
